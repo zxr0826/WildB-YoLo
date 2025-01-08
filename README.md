@@ -3,12 +3,8 @@
 
 ## Introduction 
 
-WildB-YOLO.This model is an improved version of the latest iteration in the YOLO series, YOLOv11n, incorporating
-multiple innovative designs, including FrogFPN for multi-scale feature fusion, the SACM module for
-enhanced contextual representation, and Weighted EMA Loss optimized to address class imbalance
-issues. Furthermore, we employed the LAMP pruning method to achieve lightweight optimization of
-the model, thereby significantly enhancing computational resource efficiency while maintaining high
-detection accuracy.
+WildB-YOLO
+WildB-YOLO is an advanced iteration of the YOLOv11n model, featuring several cutting-edge enhancements designed to push the boundaries of object detection. Key innovations include the FrogFPN for multi-scale feature fusion, the SACM module for richer contextual representations, and the Weighted EMA Loss, which effectively addresses class imbalance challenges. Additionally, we employ the LAMP pruning technique to streamline the model, achieving lightweight optimization without compromising detection accuracy. This combination results in a highly efficient model that significantly reduces computational resource demands while maintaining exceptional performance.
 
 ## Document
 ### Recommended Environment

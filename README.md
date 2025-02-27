@@ -25,7 +25,7 @@ You can choose WildB-YoLo's model in [WildB-YoLo.yaml](./ultralytics/cfg/models/
 from ultralytics import YOLO
 
 # Load a model
-model = YOLO("ultralytics/cfg/models/11/WildB-YoLo.yaml")
+model = YOLO("WildB-YoLo.yaml") # pase model
 
 # Train the model
 model.train(
@@ -40,3 +40,15 @@ model.train(
                 project='runs/train',
                 name='exp',
 )
+```
+## WildBerry Dataset
+Thanks to the Riz team for providing the dataset, you can download the dataset used for WildB-YOLO training from the following link 
+**Hugging Face:** [Wild Berry image dataset collected in Finnish forests and peatlands using drones)](https://huggingface.co/datasets/FBK-TeV/WildBe)
+```
+@article{riz2024wild,
+  title={Wild Berry image dataset collected in Finnish forests and peatlands using drones},
+  author={Riz, Luigi and Povoli, Sergio and Caraffa, Andrea and Boscaini, Davide and Mekhalfi, Mohamed Lamine and Chippendale, Paul and Turtiainen, Marjut and Partanen, Birgitta and Ballester, Laura Smith and Noguera, Francisco Blanes and others},
+  journal={arXiv preprint arXiv:2405.07550},
+  year={2024}
+}
+```
